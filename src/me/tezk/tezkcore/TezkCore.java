@@ -15,6 +15,7 @@ public class TezkCore extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new ColourfulMOTD(this), this);
         getServer().getPluginManager().registerEvents(new LoginMessage(this), this);
         getServer().getPluginManager().registerEvents(new DisableBreakingBlocks(this), this);
+        getServer().getPluginManager().registerEvents(new ColourChat(), this);
     }
 
     public void registerCommands() {
