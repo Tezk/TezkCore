@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="TezkCore:jar">
-    <output-path>$PROJECT_DIR$/../../../../../Desktop/Plugin Development Server/plugins</output-path>
-    <root id="archive" name="TezkCore.jar">
-      <element id="module-output" name="TezkCore" />
-    </root>
-  </artifact>
-</component>
