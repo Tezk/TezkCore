@@ -15,9 +15,9 @@ motd:
     - 'DARK_GREEN'
     - 'DARK_PURPLE'
 login-message:
-  - 'Hello and welcome %player%!'
-  - "Tezk's Plugin Development Shack:"
-  - 'https://www.mc-market.org/threads/659184/'
+  - "Hello, and welcome &e%player%&f!"
+  - "Checkout: &ehttps://www.mc-market.org/threads/659184/"
+  - ""
 disable-breaking:
   everyone: true
   enabled: true
