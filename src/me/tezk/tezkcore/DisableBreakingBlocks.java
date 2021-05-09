@@ -13,10 +13,11 @@ public class DisableBreakingBlocks implements Listener {
         this.plugin = plugin;
     }
 
+    private boolean disableBreaking = plugin.isDisableBreaking();
+    private boolean everyone = plugin.isDisableBreakingEveryone();
+
     @EventHandler
     public void onBlockBreak(BlockBreakEvent event) {
-        boolean disableBreaking = plugin.getConfig().getBoolean("disable-breaking.enabled");
-        boolean everyone = plugin.getConfig().getBoolean("disable-breaking.everyone");
         if (disableBreaking && everyone) {
             event.setCancelled(true);
         } else if (disableBreaking && !(everyone)) {
@@ -28,8 +29,6 @@ public class DisableBreakingBlocks implements Listener {
 
     @EventHandler
     public void onPlayerBuild(BlockPlaceEvent event) {
-        boolean disableBreaking = plugin.getConfig().getBoolean("disable-breaking.enabled");
-        boolean everyone = plugin.getConfig().getBoolean("disable-breaking.everyone");
         if (disableBreaking && everyone) {
             event.setCancelled(true);
         } else if (disableBreaking && !(everyone)) {

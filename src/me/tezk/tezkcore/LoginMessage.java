@@ -17,7 +17,7 @@ public class LoginMessage implements Listener {
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
-        List<String> loginMessage = plugin.getConfig().getStringList("login-message");
+        List<String> loginMessage = plugin.getLoginMessage();
         for (String line : loginMessage) {
             event.getPlayer().sendMessage(ChatColor.translateAlternateColorCodes('&', line).replace("%player%",
                     event.getPlayer().getName()) );

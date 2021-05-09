@@ -19,8 +19,8 @@ public class ColourfulMOTD implements Listener {
 
     @EventHandler
     public void onPing(ServerListPingEvent event) {
-        String message = plugin.getConfig().getString("motd.message");
-        boolean colourful = plugin.getConfig().getBoolean("motd.colourful");
+        String message = plugin.getMotdMessage();
+        boolean colourful = plugin.colourEnabled();
 
         if (!(colourful)) {
             event.setMotd(ChatColor.translateAlternateColorCodes('&', message));
@@ -29,7 +29,7 @@ public class ColourfulMOTD implements Listener {
 
         String colouredMessage = "";
         List<ChatColor> colours = new ArrayList<>();
-        List<String> colourListConfig = plugin.getConfig().getStringList("motd.colours");
+        List<String> colourListConfig = plugin.getColourListConfig();
         for (String col : colourListConfig) {
             colours.add(ChatColor.valueOf(col));
         }
