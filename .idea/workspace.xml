@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccef80a6-16f5-44bc-b897-f18e9a071e2b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/TezkCore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TezkCore.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/tezk/tezkcore/ColourfulMOTD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/tezk/tezkcore/ColourfulMOTD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/tezk/tezkcore/DisableBreakingBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/tezk/tezkcore/DisableBreakingBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/tezk/tezkcore/LoginMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/tezk/tezkcore/LoginMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/tezk/tezkcore/ReloadCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/tezk/tezkcore/commands/ReloadCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/tezk/tezkcore/SpawnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/tezk/tezkcore/commands/SpawnCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/tezk/tezkcore/SpeedCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/tezk/tezkcore/commands/SpeedCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/me/tezk/tezkcore/TezkCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/tezk/tezkcore/TezkCore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>

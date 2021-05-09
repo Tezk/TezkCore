@@ -2,6 +2,8 @@ package me.tezk.tezkcore;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.util.List;
+
 public class TezkCore extends JavaPlugin {
 
     private String message;
@@ -27,18 +29,18 @@ public class TezkCore extends JavaPlugin {
     }
 
     public void registerCommands() {
-        getCommand("speed").setExecutor(new SpeedCommand(this));
-        getCommand("tezkcore").setExecutor(new ReloadCommand(this));
-        getCommand("spawn").setExecutor(new SpawnCommand(this));
+        getCommand("speed").setExecutor(new me.tezk.tezkcore.SpeedCommand(this));
+        getCommand("tezkcore").setExecutor(new me.tezk.tezkcore.ReloadCommand(this));
+        getCommand("spawn").setExecutor(new me.tezk.tezkcore.SpawnCommand(this));
     }
 
     public void updateConfig() {
-        this.message = plugin.getConfig().getString("motd.message");
-        this.colourful = plugin.getConfig().getBoolean("motd.colourful");
-        this.colourListConfig = plugin.getConfig().getStringList("motd.colours");
-        this.loginMessage = plugin.getConfig().getStringList("login-message");
-        this.disableBreaking = plugin.getConfig().getBoolean("disable-breaking.enabled");
-        this.disableBreakingEveryone = plugin.getConfig().getBoolean("disable-breaking.everyone");
+        this.message = getConfig().getString("motd.message");
+        this.colourful = getConfig().getBoolean("motd.colourful");
+        this.colourListConfig = getConfig().getStringList("motd.colours");
+        this.loginMessage = getConfig().getStringList("login-message");
+        this.disableBreaking = getConfig().getBoolean("disable-breaking.enabled");
+        this.disableBreakingEveryone = getConfig().getBoolean("disable-breaking.everyone");
     }
 
     public String getMotdMessage() {
