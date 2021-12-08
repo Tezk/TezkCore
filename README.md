@@ -7,4 +7,5 @@ A simple, custom, essentials plugin for my Minecraft Java development test serve
 * Simple customisable login message
 * Other essentials including /spawn and /tezkcore reload commands
 
-![Colourful MOTD in action](https://i.gyazo.com/a561ac56828a1804ab0d3a5981f4e905.gif)
+#
+<img src="https://github.com/Tezk/TezkCore/blob/58c2fe214d24307f42b3e45425f9560ab853d187/tezkcoremotd.gif" width="450" height="300" />
